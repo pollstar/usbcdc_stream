@@ -13,3 +13,13 @@ The istream class uses the callback library function CDC_Receive_FS
 
 In structure USBD_Interface_fops_FS field Receive to contain a pointer to the function CDC_Receiver_FS. 
 
+The project was created using STM32CubeMX, for STM32CubeIDE.
+
+For to make the project:
+
+mkdir usbcdc_stream  
+cd usbcdc_stream  
+git init  
+git remote add root https://github.com/pollstar/usbcdc_stream.git  
+git branch -M master  
+git pull root master  
